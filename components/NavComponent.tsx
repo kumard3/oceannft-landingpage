@@ -23,29 +23,21 @@ const navData = [
 ];
 
 export default function NavComponent() {
-  // Create a ref that we add to the element for which we want to detect outside clicks
   const ref = useRef<HTMLDivElement>(null);
-  const buttonRef = useRef<HTMLDivElement>(null);
 
-  // State for our modal
   const [isModalOpen, setModalOpen] = useState(false);
-  // Call hook passing in the ref and a function to call on outside click
   useOnClickOutside(ref, () => setModalOpen(false));
 
-
   return (
-    // <Popover className= {`sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-gray-900/10 bg-white supports-backdrop-blur:bg-white/95 ${show && 'bg-inherit	'}`}>
-    <div className="sticky top-0 z-10 backdrop-blur-sm  text-xl font-bold drop-shadow-xl flex-none transition-colors duration-500  ">
+    <div className="sticky top-0 font-orbitron z-10 backdrop-blur-sm  text-xl font-bold drop-shadow-xl flex-none transition-colors duration-500  ">
       <div className="w-full container mx-auto">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
           <div className="flex justify-between items-center   py-6 sm:justify-between sm:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              {/* <li className={router.pathname == "#hero" ? "active" : "koko"}>
-              <Link href="#hero">home</Link>
-            </li> */}
-              <Link href="#home">
-                <h1>LOGO</h1>
-                {/* <span className="text-4xl font-bold">logo</span> */}
+              <Link href="#home" passHref>
+                <h1 className="">
+                  Ocean<span>NFT</span>
+                </h1>
               </Link>
             </div>
             <div className="-mr-2 -my-2 sm:hidden">
@@ -139,4 +131,3 @@ export default function NavComponent() {
     </div>
   );
 }
-
