@@ -60,21 +60,8 @@ export default function Hero() {
         </>
       </div>
       <div className="flex-end">
-        <img src="/apes.png" alt="apes" />
-        <style jsx>
-          {`
-            .hero {
-              background: linear-gradient(
-                  90deg,
-                  rgba(255, 255, 255, 0) -1.52%,
-                  rgba(255, 255, 255, 0.024) 104.35%
-                ),
-                rgba(162, 96, 243, 0.3);
-            }
-          `}
-        </style>
-
-        <div className="hero relative grid grid-cols-2 backdrop-blur-xl -top-20 p-[10px] rounded-lg left-36  min-h-[10rem] w-[336px] border-1 border">
+        <img src="/nft.png" alt="apes" className="rounded-3xl" />
+        <div className="gradient relative grid grid-cols-2 backdrop-blur-xl -top-20 p-[10px] rounded-lg left-36  min-h-[10rem] w-[336px] border-1 border">
           <div className="flex flex-col items-center justify-center h-full relative">
             <h1 className="font-rajdhani text-lg font-bold">
               3D Abstract Hand
