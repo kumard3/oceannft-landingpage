@@ -16,6 +16,7 @@ module.exports = {
         orbitron: " 'Orbitron', sans-serif",
         spartan: "'Spartan', sans-serif",
         rajdhani: "'Rajdhani', sans-serif",
+        roboto: "'Roboto', sans-serif",
       },
     },
   },

@@ -11,6 +11,10 @@
 .spartan{
     font-family: 'Spartan', sans-serif;
 }
+
+.robot{
+  font-family: Roboto, sans-serif;
+}
 .gradient{
   background: linear-gradient(
     90deg,
