@@ -4,6 +4,7 @@ import Link from "next/link";
 import * as React from "react";
 import ExploreCollections from "../components/ExploreCollections";
 import Hero from "../components/Hero";
+import MoreInfo from "../components/MoreInfo";
 import NavComponent from "../components/NavComponent";
 import TopNft from "../components/TopNft";
 import TopSellers from "../components/TopSellers";
@@ -16,6 +17,7 @@ export default function Home() {
       <TopNft />
       <ExploreCollections />
       <TopSellers />
+      <MoreInfo />
     </div>
   );
 }

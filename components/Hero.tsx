@@ -61,7 +61,7 @@ export default function Hero() {
       </div>
       <div className="flex-end">
         <img src="/nft.png" alt="apes" className="rounded-3xl" />
-        <div className="gradient relative grid grid-cols-2 backdrop-blur-xl -top-20 p-[10px] rounded-lg left-36  min-h-[10rem] w-[336px] border-1 border">
+        <div className="gradient relative grid grid-cols-2 backdrop-blur-xl -top-20 p-[10px] rounded-lg sm:left-36 left-10 min-h-[10rem] w-[336px] border-1 border">
           <div className="flex flex-col items-center justify-center h-full relative">
             <h1 className="font-rajdhani text-lg font-bold">
               3D Abstract Hand
