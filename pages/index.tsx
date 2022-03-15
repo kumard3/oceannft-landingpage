@@ -6,6 +6,7 @@ import ExploreCollections from "../components/ExploreCollections";
 import Hero from "../components/Hero";
 import MoreInfo from "../components/MoreInfo";
 import NavComponent from "../components/NavComponent";
+import NewsLetterFeed from "../components/NewsLetterFeed";
 import TopNft from "../components/TopNft";
 import TopSellers from "../components/TopSellers";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <ExploreCollections />
       <TopSellers />
       <MoreInfo />
+      <NewsLetterFeed />
     </div>
   );
 }
