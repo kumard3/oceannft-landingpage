@@ -5,15 +5,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.orbitron {
-  font-family: 'Orbitron', sans-serif;
-}
-.spartan{
-    font-family: 'Spartan', sans-serif;
-}
-
-.robot{
-  font-family: Roboto, sans-serif;
+*::-webkit-scrollbar{
+  display: none
 }
 .gradient{
   background: linear-gradient(
