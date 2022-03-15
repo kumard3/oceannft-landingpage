@@ -3,6 +3,7 @@
 import Link from "next/link";
 import * as React from "react";
 import ExploreCollections from "../components/ExploreCollections";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import MoreInfo from "../components/MoreInfo";
 import NavComponent from "../components/NavComponent";
@@ -20,6 +21,7 @@ export default function Home() {
       <TopSellers />
       <MoreInfo />
       <NewsLetterFeed />
+      <Footer />
     </div>
   );
 }
